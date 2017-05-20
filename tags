@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BeautifulSoup	src/main/proCity.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:9
+LianHangHaoSpider	src/main/baseDao.py	/^from spider import LianHangHaoSpider$/;"	kind:namespace	line:4
+LianHangHaoSpider	src/main/proCity.py	/^from spider import LianHangHaoSpider$/;"	kind:namespace	line:15
+LianHangHaoSpider	src/main/spider.py	/^class LianHangHaoSpider:$/;"	kind:class	line:4
+__init__	src/main/main.py	/^import __init__$/;"	kind:namespace	line:3
+__init__	src/main/proCity.py	/^import __init__$/;"	kind:namespace	line:8
+__init__	src/main/spider.py	/^    def __init__(self):$/;"	kind:member	line:20
+__init__	src/main/spider.py	/^    def __init__(self,proName,cityName,bankName,pageNo):$/;"	kind:member	line:14
+__init__.py	src/main/__init__.py	1;"	kind:file	line:1
+bankAddress	src/main/spider.py	/^    bankAddress = ''$/;"	kind:variable	line:12
+bankChildName	src/main/spider.py	/^    bankChildName = ''$/;"	kind:variable	line:10
+bankIdList	src/main/__init__.py	/^bankIdList = []$/;"	kind:variable	line:10
+bankIdList	src/main/main.py	/^bankIdList = __init__.init_data()$/;"	kind:variable	line:7
+bankMap	src/main/__init__.py	/^bankMap = {}$/;"	kind:variable	line:8
+bankName	src/main/main.py	/^    bankName = __init__.bankMap[str(bankId)]$/;"	kind:variable	line:15
+bankName	src/main/spider.py	/^    bankName = ''$/;"	kind:variable	line:8
+bankNo	src/main/spider.py	/^    bankNo = ''$/;"	kind:variable	line:9
+bankNoSet	src/main/proCity.py	/^bankNoSet = {}$/;"	kind:variable	line:5
+bankTel	src/main/spider.py	/^    bankTel = ''$/;"	kind:variable	line:11
+bankes	src/main/__init__.py	/^bankes = None$/;"	kind:variable	line:12
+baseDao.py	src/main/baseDao.py	1;"	kind:file	line:1
+batch_insertDB	src/main/baseDao.py	/^def batch_insertDB(sql, paramesArr):$/;"	kind:function	line:52
+cityList	src/main/proCity.py	/^cityList = []$/;"	kind:variable	line:17
+cityName	src/main/spider.py	/^    cityName = ''$/;"	kind:variable	line:7
+config	src/main/baseDao.py	/^config = {$/;"	kind:variable	line:9
+connect	src/main/baseDao.py	/^def connect():$/;"	kind:function	line:20
+dataList	src/main/__init__.py	/^dataList = []$/;"	kind:variable	line:14
+genData	src/main/proCity.py	/^def genData(respDataStr, bankName, proName, cityName, pageNo, times):$/;"	kind:function	line:157
+id	src/main/spider.py	/^    id = ''$/;"	kind:variable	line:5
+init_data	src/main/__init__.py	/^def init_data():$/;"	kind:function	line:16
+insertDB	src/main/baseDao.py	/^def insertDB(sql, paramArr):$/;"	kind:function	line:28
+main.py	src/main/main.py	1;"	kind:file	line:1
+mysql	src/main/baseDao.py	/^import pymysql as mysql$/;"	kind:namespace	line:3
+onBankNoSet	src/main/proCity.py	/^def onBankNoSet(bankNo):$/;"	kind:function	line:22
+onFlag	src/main/proCity.py	/^onFlag = 0$/;"	kind:variable	line:14
+onFlag	src/main/proCity.py	/^onFlag = 0$/;"	kind:variable	line:19
+pageNo	src/main/spider.py	/^    pageNo = ''$/;"	kind:variable	line:13
+proCity	src/main/main.py	/^import proCity$/;"	kind:namespace	line:2
+proCity.py	src/main/proCity.py	1;"	kind:file	line:1
+proIdList	src/main/__init__.py	/^proIdList = []$/;"	kind:variable	line:7
+proMap	src/main/__init__.py	/^proMap = {}$/;"	kind:variable	line:9
+proName	src/main/spider.py	/^    proName = ''$/;"	kind:variable	line:6
+proes	src/main/__init__.py	/^proes = None$/;"	kind:variable	line:13
+queryBankId	src/main/proCity.py	/^def queryBankId(bankName):$/;"	kind:function	line:64
+queryCityByProId	src/main/proCity.py	/^def queryCityByProId(bankId):$/;"	kind:function	line:72
+queryCityIdByName	src/main/proCity.py	/^def queryCityIdByName(cityName):$/;"	kind:function	line:50
+queryCityName	src/main/proCity.py	/^def queryCityName(cityId):$/;"	kind:function	line:57
+queryCityes	src/main/__init__.py	/^def queryCityes():$/;"	kind:function	line:58
+queryOnlineData	src/main/proCity.py	/^def queryOnlineData(bankId, proId, cityId, pageNo):$/;"	kind:function	line:119
+queryProIdByName	src/main/proCity.py	/^def queryProIdByName(proName):$/;"	kind:function	line:40
+readCityList	src/main/proCity.py	/^def readCityList():$/;"	kind:function	line:32
+requests	src/main/__init__.py	/^import requests$/;"	kind:namespace	line:3
+requests	src/main/proCity.py	/^import requests$/;"	kind:namespace	line:2
+selectLeastSpider	src/main/baseDao.py	/^def selectLeastSpider():$/;"	kind:function	line:105
+selectUser	src/main/baseDao.py	/^def selectUser(id):$/;"	kind:function	line:87
+spider.py	src/main/spider.py	1;"	kind:file	line:1
+sqlDao	src/main/proCity.py	/^import baseDao as sqlDao$/;"	kind:namespace	line:12
+sys	src/main/__init__.py	/^import sys$/;"	kind:namespace	line:2
+sys	src/main/proCity.py	/^import sys$/;"	kind:namespace	line:3
+toStringArr	src/main/spider.py	/^    def toStringArr(self):$/;"	kind:member	line:25
+tostring	src/main/spider.py	/^    def tostring(self):$/;"	kind:member	line:23
